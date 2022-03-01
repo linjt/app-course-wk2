@@ -2,70 +2,66 @@ import React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 
 const AlbumDetail = (props) => {
-  const { thumbnail_image, title, artist, image } = props.album;
+  const { title, artist, image } = props.album;
   return (
-    <View style={styles.cardContainerStyle}>
-      <View style={[styles.thumbnailContainerStyle, styles.cardSectionStyle]}>
-        <Image
-          style={styles.thumbnailStyle}
-          source={{
-            uri: thumbnail_image
-          }}
-        />
-        <View style={styles.headerContentStyle}>
-          <Text>{title}</Text>
-          <Text>{artist}</Text>
+    <View>
+      <View style={styles.ContainerStyle}>
+        <View style={styles.cardSectionStyle}>
+          <View style={styles.headerContentStyle}>
+            <Text style={styles.headerTitleStyle}>{title}</Text>
+            <Text  style={styles.headerTextStyle}>{artist}</Text>
+          </View>
         </View>
-      </View>
-      <View style={styles.cardSectionStyle}>
-        <Image
-          style={styles.imageStyle}
-          source={{
-            uri: image
-          }}
-        />
+        <View style={styles.cardSectionStyle}>
+          <Image
+            style={styles.imageStyle}
+            source={{
+              uri: image
+            }}
+          />
+        </View>
       </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  thumbnailContainerStyle: {
-    flexDirection: "row",
-    justifyContent: "flex-start"
-  },
-  thumbnailStyle: {
-    height: 50,
-    width: 50,
-    margin: 5
-  },
   headerContentStyle: {
     flexDirection: "column",
     justifyContent: "space-around",
-    paddingLeft: 10
+    alignItems:"center",
   },
-  cardContainerStyle: {
-    borderWidth: 1,
-    borderRadius: 2,
-    borderColor: "#ddd",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
-    elevation: 1,
+  headerTitleStyle:{
+    fontSize:25,
+  },
+  headerTextStyle:{
+    fontStyle: 'italic',
+    fontSize:16,
+  },
+  ContainerStyle: {
+    // borderWidth: 1,
+    // borderRadius: 2,
+    // borderColor: "#333",
+    // shadowColor: "#000",
+    // shadowOffset: { width: 0, height: 2 },
+    // shadowOpacity: 0.1,
+    // shadowRadius: 2,
+    // elevation: 1,
     marginLeft: 5,
     marginRight: 5,
-    marginTop: 10
+    marginTop: 30,
   },
   cardSectionStyle: {
-    padding: 5,
-    backgroundColor: "#fff",
-    borderColor: "#ddd",
-    borderBottomWidth: 1
+    // borderWidth: 1,
+    padding: 10,
+    // backgroundColor: "#fff",
+    // borderColor: "#ddd",
+    justifyContent: "center",
+    alignItems:"center",
   },
   imageStyle: {
-    height: 300,
-    width: null
+    height: 150,
+    width: 150,
   }
 });
 

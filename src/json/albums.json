@@ -1,36 +1,26 @@
 [{
       "title": "test 1",
       "artist": "test 2",
-      "url": "https://www.amazon.com/Taylor-Swift/dp/B0014I4KH6",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/61McsadO1OL.jpg",
-      "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+      "image": "https://static.wixstatic.com/media/28dfca_525951c973ba441f8e1b763211d0a713~mv2_d_4000_3503_s_4_2.png/v1/fill/w_443,h_389,al_c,usm_0.66_1.00_0.01,enc_auto/28dfca_525951c973ba441f8e1b763211d0a713~mv2_d_4000_3503_s_4_2.png"
    },
    {
       "title": "Fearless",
       "artist": "Taylor Swift",
-      "url": "https://www.amazon.com/Fearless-Enhanced-Taylor-Swift/dp/B001EYGOEM",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51qmhXWZBxL.jpg",
-      "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+      "image": "https://static.wixstatic.com/media/28dfca_26caa12775544d0fa83ad9f1a7be064e~mv2_d_2000_1333_s_2.jpg/v1/fill/w_1013,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28dfca_26caa12775544d0fa83ad9f1a7be064e~mv2_d_2000_1333_s_2.jpg"
    },
    {
       "title": "Speak Now",
       "artist": "Taylor Swift",
-      "url": "https://www.amazon.com/Speak-Now-Taylor-Swift/dp/B003WTE886",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51vlGuX7%2BFL.jpg",
-      "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+      "image": "https://static.wixstatic.com/media/28dfca_d93217dae1124de78796c75ce0087e0f~mv2.jpg/v1/fill/w_1085,h_723,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28dfca_d93217dae1124de78796c75ce0087e0f~mv2.jpg"
    },
    {
       "title": "Red",
       "artist": "Taylor Swift",
-      "url": "https://www.amazon.com/Red-Taylor-Swift/dp/B008XNZMOU",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/41j7-7yboXL.jpg",
-      "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+      "image": "https://static.wixstatic.com/media/28dfca_f8cc1150f48146579f189cc1fbb11ffc~mv2.jpg/v1/fill/w_380,h_375,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/28dfca_f8cc1150f48146579f189cc1fbb11ffc~mv2.jpg"
    },
    {
       "title": "1989",
       "artist": "Taylor Swift",
-      "url": "https://www.amazon.com/1989-Taylor-Swift/dp/B00MRHANNI",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/717DWgRftmL._SX522_.jpg",
-      "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+      "image": "https://static.wixstatic.com/media/28dfca_0222847e6bfe4b21aeabe535369ee3ae~mv2.jpg/v1/fill/w_375,h_375,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/28dfca_0222847e6bfe4b21aeabe535369ee3ae~mv2.jpg"
    }
 ]
