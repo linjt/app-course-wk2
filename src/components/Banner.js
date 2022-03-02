@@ -13,9 +13,6 @@ const Banner = () => {
                 <Text style={styles.bannerTitleStyle2}>DSPS</Text>
             </View>
             <View style={styles.line}></View>
-            <View style={styles.cardTitleSection}>
-                <Text style={styles.cardTitleStyle}>discography</Text>
-            </View>
         </View>
     );
 }
@@ -33,6 +30,7 @@ const styles = StyleSheet.create({
         left:30,
         bottom:-10,
         fontStyle: 'italic',
+        color:"#232323",
     },
     bannerTitleStyle2:{
         position:"absolute",
@@ -40,6 +38,7 @@ const styles = StyleSheet.create({
         right:30,
         top:-10,
         fontStyle: 'italic',
+        color:"#232323",
     },
     imageStyle: {
         height: 180,
@@ -47,20 +46,10 @@ const styles = StyleSheet.create({
     },
     line:{
         borderBottomWidth:1,
-        borderBottomColor:"#ff6a00",
-        marginTop:75,
+        borderBottomColor:"#232323",
+        marginTop: 80,
         marginHorizontal:30,
-    },
-    cardTitleSection:{
-        justifyContent: "space-around",
-        alignItems:"center",
-        marginTop: 40,
-      },
-    cardTitleStyle:{
-        fontSize:28,
-        fontWeight:"bold",
-        lineHeight:30,
-        letterSpacing: 2,
+        opacity: 0.6,
     },
 });
     

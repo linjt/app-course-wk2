@@ -1,26 +1,31 @@
 [{
-      "title": "test 1",
-      "artist": "test 2",
+      "title": "FULLY I",
+      "smallTitle": "MINI ALBUM",
       "image": "https://static.wixstatic.com/media/28dfca_525951c973ba441f8e1b763211d0a713~mv2_d_4000_3503_s_4_2.png/v1/fill/w_443,h_389,al_c,usm_0.66_1.00_0.01,enc_auto/28dfca_525951c973ba441f8e1b763211d0a713~mv2_d_4000_3503_s_4_2.png"
    },
    {
-      "title": "Fearless",
-      "artist": "Taylor Swift",
+      "title": "時間的產物 Upon Time",
+      "smallTitle": "ALBUM",
       "image": "https://static.wixstatic.com/media/28dfca_26caa12775544d0fa83ad9f1a7be064e~mv2_d_2000_1333_s_2.jpg/v1/fill/w_1013,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28dfca_26caa12775544d0fa83ad9f1a7be064e~mv2_d_2000_1333_s_2.jpg"
    },
    {
-      "title": "Speak Now",
-      "artist": "Taylor Swift",
+      "title": "我會不會又睡到下午了 Sleep till Afternoon EP",
+      "smallTitle": "EP",
       "image": "https://static.wixstatic.com/media/28dfca_d93217dae1124de78796c75ce0087e0f~mv2.jpg/v1/fill/w_1085,h_723,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28dfca_d93217dae1124de78796c75ce0087e0f~mv2.jpg"
    },
    {
-      "title": "Red",
-      "artist": "Taylor Swift",
+      "title": "我會不會又睡到下午了 七吋黑膠 Sleep till Afternoon (7\")",
+      "smallTitle": "黑膠唱片 Vinyl",
       "image": "https://static.wixstatic.com/media/28dfca_f8cc1150f48146579f189cc1fbb11ffc~mv2.jpg/v1/fill/w_380,h_375,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/28dfca_f8cc1150f48146579f189cc1fbb11ffc~mv2.jpg"
    },
    {
-      "title": "1989",
-      "artist": "Taylor Swift",
+      "title": "Homecomings - PLAY YARD SYMPHONY (7\")",
+      "smallTitle": "Works",
       "image": "https://static.wixstatic.com/media/28dfca_0222847e6bfe4b21aeabe535369ee3ae~mv2.jpg/v1/fill/w_375,h_375,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/28dfca_0222847e6bfe4b21aeabe535369ee3ae~mv2.jpg"
+   },
+   {
+      "title": "「出發」原創音樂專輯",
+      "smallTitle": "Compilation Album",
+      "image": "https://static.wixstatic.com/media/28dfca_29c0207dafae4828babf327b4a09c2a5~mv2.jpg/v1/fill/w_376,h_375,al_c,lg_1,q_80,enc_auto/28dfca_29c0207dafae4828babf327b4a09c2a5~mv2.jpg"
    }
 ]
